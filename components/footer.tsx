@@ -28,8 +28,11 @@ const Footer = () => {
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
-            position="right"
-          />
+            position="right" onClick={function (): void {
+              throw new Error("Function not implemented.");
+            } } otherClasss={""} handleClick={function (): void {
+              throw new Error("Function not implemented.");
+            } } isCopyButton={false}          />
         </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
